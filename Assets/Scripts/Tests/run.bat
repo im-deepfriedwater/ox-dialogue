@@ -1,0 +1,1 @@
+csc DialogueSystemTest.cs && DialogueSystemTest

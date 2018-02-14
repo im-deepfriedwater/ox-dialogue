@@ -1,0 +1,38 @@
+ {
+ 	"dialogues": [
+ 		{
+ 			"characterType": 0,
+ 			"name": "Hero",
+ 			"atlasImageName": "Hero_Default",
+ 			"dialogueText": "Oh my god."
+ 		},
+
+ 		{
+ 			"characterType": 1,
+ 			"name": "Ally",
+ 			"atlasImageName": "Heroine_Surprised",
+ 			"dialogueText": "What is it?"
+ 		},
+
+ 		{
+ 			"characterType": 0,
+ 			"name": "Hero",
+ 			"atlasImageName": "Hero_Angry",
+ 			"dialogueText": "... I forgot grandpa's birthday again."
+ 		},
+
+  		{
+ 			"characterType": 1,
+ 			"name": "Ally",
+ 			"atlasImageName": "Heroine_Neutral",
+ 			"dialogueText": "Just lie and tell him-"
+ 		},
+
+   		{
+ 			"characterType": 2,
+ 			"name": "Mentor",
+ 			"atlasImageName": "Wizard",
+ 			"dialogueText": "BOY AM I EXCITED FOR MY BIRTHDAY"
+ 		}
+ 	]
+ }

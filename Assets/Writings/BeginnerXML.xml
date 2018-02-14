@@ -1,0 +1,164 @@
+<root>
+    <dialogue>
+        <ID>0</ID>
+        <currentSpeaker>left</currentSpeaker>
+        <name>Blu</name>
+        <leftSprite flip = "true">HeroBored</leftSprite>
+        <rightSprite>DhaContemplative</rightSprite>
+        <jumpID>1</jumpID>
+        <message>I've only ten seconds left? I choose... chocolate.</message>
+        <choice>
+            <message>You know what, for whatever reason. I'll stick to chocolate.</message>
+            <jumpID>20</jumpID>
+        </choice>        <choice>
+            <message>Wait no I take that back.</message>
+            <command points="3">AddToNeutral</command>
+            <jumpID>10</jumpID>
+        </choice>
+        <choice>
+            <message>Nevermind, I quit.</message>
+            <jumpID>99</jumpID>
+        </choice>
+        <choice>
+            <message>...</message>
+            <jumpID>10</jumpID>
+        </choice>
+        <choice>
+            <message>Can this wait? There's something else I should say...</message>
+            <jumpID>10</jumpID>
+        </choice>
+    </dialogue>
+
+    <dialogue>
+        <ID>1</ID>
+        <currentSpeaker>right</currentSpeaker>
+        <name>Dha</name>
+        <leftSprite>HeroBored</leftSprite>
+        <rightSprite>DhaContemplative</rightSprite>
+        <jumpID>2</jumpID>
+        <message>What? That means you quit then. You can't quit!</message>
+    </dialogue>
+
+    <dialogue>
+        <ID>2</ID>
+        <currentSpeaker>left</currentSpeaker>
+        <name>Blu</name>
+        <leftSprite flip = "true">HeroBored</leftSprite>
+        <rightSprite>DhaContemplative</rightSprite>
+        <jumpID>3</jumpID>
+        <message>Well why not?</message>
+    </dialogue>
+
+    <dialogue>
+        <ID>3</ID>
+        <currentSpeaker>right</currentSpeaker>
+        <name>Dha</name>
+        <leftSprite>HeroBored</leftSprite>
+        <rightSprite flip = "true">DhaContemplative</rightSprite>
+        <jumpID>4</jumpID>
+        <message>... Hm. You're right. This is goodbye then.</message>
+    </dialogue>
+
+    <dialogue>
+        <ID>4</ID>
+        <currentSpeaker>left</currentSpeaker>
+        <name>Blu</name>
+        <leftSprite flip = "true">HeroSurprised</leftSprite>
+        <rightSprite flip = "true">DhaContemplative</rightSprite>
+        <jumpID>5</jumpID>
+        <message>Wait what? No, you can't just leave like this!</message>
+    </dialogue>
+
+    <dialogue>
+        <ID>5</ID>
+        <currentSpeaker>right</currentSpeaker>
+        <name>Dha</name>
+        <leftSprite flip = "true">HeroSurprised</leftSprite>
+        <rightSprite>DhaScheming</rightSprite>
+        <jumpID>6</jumpID>
+        <message>You're right. I forgot to give back your entrance fee after all.</message>
+    </dialogue>
+
+    <dialogue>
+        <ID>6</ID>
+        <currentSpeaker>left</currentSpeaker>
+        <name>Blu</name>
+        <leftSprite>HeroBored</leftSprite>
+        <rightSprite>DhaScheming</rightSprite>
+        <jumpID>7</jumpID>
+        <message>That's not what I meant. You know that.</message>
+    </dialogue>
+
+    <dialogue>
+        <ID>7</ID>
+        <currentSpeaker>right</currentSpeaker>
+        <name>Dha</name>
+        <leftSprite>HeroBored</leftSprite>
+        <rightSprite>DhaContemplative</rightSprite>
+        <jumpID>8</jumpID>
+        <message>But this is what you chose. My hand has been forced. Goodbye Blu.</message>
+    </dialogue>
+
+    <dialogue>
+        <ID>8</ID>
+        <currentSpeaker>left</currentSpeaker>
+        <name>Blu</name>
+        <leftSprite>HeroLetDown</leftSprite>
+        <rightSprite>DhaContemplative</rightSprite>
+        <jumpID>0</jumpID>
+        <message>...</message>
+        <end></end>
+    </dialogue>
+
+
+    <dialogue>
+        <ID>10</ID>
+        <currentSpeaker>right</currentSpeaker>
+        <name>Dha</name>
+        <leftSprite>HeroContemplative</leftSprite>
+        <rightSprite>DhaSurp</rightSprite>
+        <jumpID>11</jumpID>
+        <message>Hmm. I've never had anyone take back their choice before.</message>
+    </dialogue>
+
+    <dialogue>
+        <ID>11</ID>
+        <currentSpeaker>left</currentSpeaker>
+        <name>Blu</name>
+        <leftSprite>HeroContemplative</leftSprite>
+        <rightSprite>DhaPleased</rightSprite>
+        <jumpID>12</jumpID>
+        <message>I've never had anyone give me such a hopeless situation before either.</message>
+    </dialogue>
+
+    <dialogue>
+        <ID>12</ID>
+        <currentSpeaker>right</currentSpeaker>
+        <name>Dha</name>
+        <leftSprite>HeroContemplative</leftSprite>
+        <rightSprite>DhaSurp</rightSprite>
+        <jumpID>0</jumpID>
+        <message>Give me a second. I'll see what I can do.</message>
+        <end></end>
+    </dialogue>
+
+    <dialogue>
+        <ID>20</ID>
+        <currentSpeaker>right</currentSpeaker>
+        <name>Dha</name>
+        <leftSprite>HeroContemplative</leftSprite>
+        <rightSprite>DhaPleased</rightSprite>
+        <jumpID>0</jumpID>
+        <message>Chocolate. Interesting.</message>
+        <end></end>
+    </dialogue>
+  <dialogue>
+        <ID>99</ID>
+        <currentSpeaker>left</currentSpeaker>
+        <name>Blu</name>
+        <leftSprite>HeroBored</leftSprite>
+        <rightSprite>DhaContemplative</rightSprite>
+        <jumpID>1</jumpID>
+        <message>Nevermind, I quit.</message>
+    </dialogue>
+</root>
